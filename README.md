@@ -60,7 +60,6 @@ If you want change the readSize in task3, you must change max value in task1 and
 		After reading terms and inserting terms to Trie operations, we called deleteALL method for deallocation operation which are also defined in task1 in a much more detailed way. 
 		Lastly, we printed the execution time which represents the performance of the task, we made execution name as an used time in our code.
 			
-# Known bugs or problems
-	We don't have any known bugs or problems in our whole tasks.
+
 	
 	
