@@ -1,8 +1,8 @@
 # Creating-Dictionary-for-the-AOL-Dataset
 Creating Dictionary for the AOL Dataset C Project
 
-Egemen Engin	
-Canay Kaplan
+-Egemen Engin	
+-Canay Kaplan
 
 # How to run
 We have 7 files for tasks and each file do what project wants and run like shown below except first file:
