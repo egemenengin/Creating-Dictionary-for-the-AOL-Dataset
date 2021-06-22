@@ -8,13 +8,18 @@ Creating Dictionary for the AOL Dataset C Project
 We have 7 files for tasks and each file do what project wants and run like shown below except first file:
 	gcc task2.c -o task2
 	./task2
+	
 !!Except first file because it doesn't have any main method.
 	
 For task4 and task5 -lpthread should be added to gcc part:
+
 	gcc task4.c -o task4 -lpthread
 	./task4
+	
 From task2 to task7 it needs files' names must be like data1.txt,data2.txt,...,data10.txt. These files aren't in our file, so you should put these into the file. 
+
 If you want change the readSize in task3, you must change max value in task1 and malloc sizes of input and tempInp.(It doesn't work 512 or lower)
+
 # Design Overview
 	In this project we have 7 different c files for each task. First file hold structure of trie and methods of it. Also it doesn't have main method. From second to seventh file, they read all files, do their tasks which project wants from us and they print Trie results to file in format of term\tCountOfTerm. File names are formed like Dictionary2.txt, Dictionary3.txt, Dictionary4.txt, ..., Dictionary10.txt. Also they print their execution time which is named as a used time in our code. Every file will be explained in detailed way in complete specification part.
 # Complete Specification
